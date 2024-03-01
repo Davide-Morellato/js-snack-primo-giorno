@@ -10,18 +10,18 @@ console.log(number);  //number
 // Dichiara una costante chiamata PI e assegnale il valore di 3.14.
 // Stampa il valore della costante in console.
 
-const PI = 3.14 ; //number
+const pi = 3.14 ; //number
 
-console.log(PI) ; //number
+console.log(pi) ; //number
 
 
 
 // Prova ad assegnare alla costante chiamata PI il valore di 3.1416.
 // Sai dire cosa succede?
 
-const PI = 3.1416 ; //number
+const pi = 3.1416 ; //number
 
-console.log(PI) ; // ERRORE -> perchè la const PI è stata dichiarata già nell'esercizio precedente (const è una Variabile NON Riassegnabile)
+console.log(pi) ; // ERRORE -> perchè la const PI è stata dichiarata già nell'esercizio precedente (const è una Variabile NON Riassegnabile)
 
 
 
@@ -30,7 +30,7 @@ console.log(PI) ; // ERRORE -> perchè la const PI è stata dichiarata già nell
 // Stampa il valore della variabile circle in console.
 
 const radius = 8 ; //number
-const circle = (radius * 2 * PI); //number
+const circle = (radius * 2 * pi); //number
 
 console.log(circle) //number
 
