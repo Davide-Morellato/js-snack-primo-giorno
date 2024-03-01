@@ -1,0 +1,20 @@
+body{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: "Honk", system-ui;
+   background-image: url(./great-scott-doc-back-to-the-future-drawing-1024x1019.jpeg);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+   height: 100vh;
+}
+
+.pos-ab{
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    font-size: 130px;
+    font-style: oblique;
+}
